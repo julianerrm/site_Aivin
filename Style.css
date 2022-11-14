@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    margin-top: 10vh;
+    background: linear-gradient(#accadd 0%,#e0a8cb 100%		);
+    color: #7e9db3;
+    margin-right: 0;
+}
+.menu{
+    position: fixed;
+    list-style: none;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+background-color: rgb(155, 180, 218);
+width: 100%;
+}
+.links{
+    display: inline;
+    padding-top: 5px;
+     padding-left: 33px;
+      padding-right: 25px;
+      padding-bottom: 5px; 
+      font-family: fantasy;
+       font-size: 20px;
+}
+#foto{
+    height: 25vh;
+}
+#welcome{
+    margin-bottom: 15vh;
+}
+#lateral img{
+    height: 40vh;
+}
+#lateral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+align-items: center;
+}
